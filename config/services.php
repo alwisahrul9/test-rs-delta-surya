@@ -13,6 +13,11 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
+    'rsds' => [
+        'base_url' => env('RSDS_BASEURL'),
+        'email' => env('RSDS_EMAIL'),
+        'password' => env('RSDS_PASSWORD')
+    ],
 
     'postmark' => [
         'key' => env('POSTMARK_API_KEY'),
