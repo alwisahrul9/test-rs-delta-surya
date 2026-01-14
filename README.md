@@ -11,7 +11,7 @@ Cara install Projek ini:
  - Buat file .env (isi environment ada di .env.example)
  - Sesuaikan nama database, username dan password di .env
  - Jalankan perintah:
-    - composser install
+    - composer install
     - npm install
     - npm run build
     - php artisan key:generate
