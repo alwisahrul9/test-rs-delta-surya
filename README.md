@@ -7,7 +7,7 @@ Cara install Projek ini:
  - MySQL
 
 2. Instalasi
- - clone projek dari https://github.com/alwisahrul9/test-rs-delta-surya.git
+ - Clone projek dari https://github.com/alwisahrul9/test-rs-delta-surya.git
  - Buat file .env (isi environment ada di .env.example)
  - Sesuaikan nama database, username dan password di .env
  - Jalankan perintah:
@@ -23,3 +23,6 @@ Cara install Projek ini:
     - npm run dev
     - Secara default, aplikasi akan mengarah ke halaman utama (http://127.0.0.1:8000), namun untuk fungsi aplikasi dimulai dari halaman login berikut:
         - http://127.0.0.1:8000/login
+        - Login sebagai admin untuk menambah dokter dan apoteker dengan akun:
+        - Email: admin@email.com
+        - Password: password
